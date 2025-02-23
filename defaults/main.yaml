@@ -1,0 +1,70 @@
+---
+kde_apps:
+      - kde-plasma-desktop
+      - plasma-workspace-wayland 
+      - network-manager 
+      - plasma-nm
+      - accountwizard 
+      - acpid 
+      - akonadi-backend-postgresql 
+      - akonadi-server
+      - debconf-kde-data
+      - debconf-kde-helper 
+      - kde-config-fcitx5 
+      - kde-config-fcitx
+      - kdeaccessibility 
+      - kdepim-addons 
+      - kdepim-runtime 
+      - kdepim-themeeditors 
+      - keyutils 
+      - kio-ldap
+      - kmag 
+      - kmousetool 
+      - kmouth 
+      - konq-plugins 
+      - korganizer 
+      - pinentry-qt 
+      - plasma-integration 
+      - plasma-runners-addons 
+      - plasma-wallpapers-addons 
+      - plasma-widgets-addons 
+      - powermgmt-base
+      - qtgstreamer-plugins-qt5
+      - plasma-discover-backend-flatpak 
+      - okular-extra-backends 
+      - libreoffice-plasma 
+      - ark 
+      - gwenview 
+      - kcalc 
+      - kmahjongg 
+      - kmines 
+      - krdc 
+      - ksudoku 
+      - kde-spectacle 
+      - ksystemlog 
+      - kate 
+      - okular 
+      - yakuake 
+      - marble 
+      - kdenlive 
+      - kigo 
+      - kompare 
+      - krfb 
+      - ktimer
+      - sddm
+      - dolphin
+      - libsystemd-dev 
+      - libinput-tools 
+      - libinput-dev
+      - skanlite
+
+zfs_user_datasets:
+      - "home/{{ user }}/.config"
+      - "home/{{ user }}/.local"
+      - "home/{{ user }}/.local/share"
+      - "home/{{ user }}/Documents"
+      - "home/{{ user }}/Downloads"
+      - "home/{{ user }}/Music"
+      - "home/{{ user }}/Pictures"
+      - "home/{{ user }}/Videos"
+      - "home/{{ user }}/Games"
