@@ -1,7 +1,6 @@
 ---
 kde_apps:
       - kde-plasma-desktop
-      - plasma-workspace-wayland 
       - network-manager 
       - plasma-nm
       - accountwizard 
@@ -30,7 +29,6 @@ kde_apps:
       - plasma-widgets-addons 
       - powermgmt-base
       - qtgstreamer-plugins-qt5
-      - plasma-discover-backend-flatpak 
       - okular-extra-backends 
       - libreoffice-plasma 
       - ark 
