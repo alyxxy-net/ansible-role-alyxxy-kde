@@ -1,17 +1,14 @@
-// Version 2
+// Version 4
 
-import QtQuick 2.0
-import QtQuick.Controls 1.0
-import QtQuick.Layouts 1.0
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
 
 RowLayout {
 	id: configTextAlign
 
 	property string configKey: ''
 	readonly property string configValue: configKey ? plasmoid.configuration[configKey] : ""
-	
-	property alias before: labelBefore.text
-	property alias after: labelAfter.text
 
 	function setValue(val) {
 		if (configKey) {
@@ -30,43 +27,31 @@ RowLayout {
 
 	Component.onCompleted: updateChecked()
 
-	Label {
-		id: labelBefore
-		text: ""
-		visible: text
-	}
-	
-	Button {
+	QQC2.Button {
 		id: justifyLeftButton
-		iconName: "format-justify-left-symbolic"
+		icon.name: "format-justify-left-symbolic"
 		checkable: true
 		onClicked: setValue(Text.AlignLeft)
 	}
 
-	Button {
+	QQC2.Button {
 		id: justifyCenterButton
-		iconName: "format-justify-center-symbolic"
+		icon.name: "format-justify-center-symbolic"
 		checkable: true
 		onClicked: setValue(Text.AlignHCenter)
 	}
 
-	Button {
+	QQC2.Button {
 		id: justifyRightButton
-		iconName: "format-justify-right-symbolic"
+		icon.name: "format-justify-right-symbolic"
 		checkable: true
 		onClicked: setValue(Text.AlignRight)
 	}
 
-	Button {
+	QQC2.Button {
 		id: justifyFillButton
-		iconName: "format-justify-fill-symbolic"
+		icon.name: "format-justify-fill-symbolic"
 		checkable: true
 		onClicked: setValue(Text.AlignJustify)
-	}
-
-	Label {
-		id: labelAfter
-		text: ""
-		visible: text
 	}
 }
