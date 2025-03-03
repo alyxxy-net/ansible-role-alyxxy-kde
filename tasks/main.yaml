@@ -56,13 +56,13 @@
 
 - name: remove default wallpaper
   file:
-    path: "/usr/share/wallpapers/Next/contents"
+    path: "/usr/share/wallpapers/emerald/contents"
     state: absent
 
 - name: copy wallpaper
   copy:
     src: "../files/wallpaper/contents"
-    dest: "/usr/share/wallpapers/Next"
+    dest: "/usr/share/wallpapers/emerald"
     mode: '755'
 
 - name: copy .config/gtk-3.0 directory
