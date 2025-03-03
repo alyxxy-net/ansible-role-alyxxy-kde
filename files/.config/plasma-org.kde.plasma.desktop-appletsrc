@@ -4,16 +4,6 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometriesHorizontal=
-activityId=
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -60,7 +50,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 SystrayContainmentId=8
 
 [Containments][2][General]
@@ -80,7 +70,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][31][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/org.kde.spectacle (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/org.kde.spectacle (1).desktop
 url=file:///usr/share/applications/org.kde.spectacle.desktop
 
 [Containments][29][Applets][32]
@@ -88,7 +78,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][32][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/calibre-gui (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/calibre-gui (1).desktop
 url=file:///usr/share/applications/calibre-gui.desktop
 
 [Containments][29][Applets][33]
@@ -96,7 +86,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][33][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/org.kde.dolphin (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/org.kde.dolphin (1).desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
 [Containments][29][Applets][34]
@@ -104,7 +94,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][34][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/element-desktop (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/element-desktop.desktop
 url=file:///usr/share/applications/element-desktop.desktop
 
 [Containments][29][Applets][35]
@@ -112,7 +102,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][35][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/emacs (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/emacs.desktop
 url=file:///usr/share/applications/emacs.desktop
 
 [Containments][29][Applets][36]
@@ -120,7 +110,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][36][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/firefox-esr (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/firefox-esr.desktop
 url=file:///usr/share/applications/firefox-esr.desktop
 
 [Containments][29][Applets][37]
@@ -128,7 +118,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][37][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/gimp (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/gimp.desktop
 url=file:///usr/share/applications/gimp.desktop
 
 [Containments][29][Applets][38]
@@ -136,7 +126,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][38][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/org.kde.konsole (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/org.kde.konsole (1).desktop
 url=file:///usr/share/applications/org.kde.konsole.desktop
 
 [Containments][29][Applets][39]
@@ -144,7 +134,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][39][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/signal-desktop (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/signal-desktop.desktop
 url=file:///usr/share/applications/signal-desktop.desktop
 
 [Containments][29][Applets][40]
@@ -152,7 +142,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][40][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/codium (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/codium.desktop
 url=file:///usr/share/applications/codium.desktop
 
 [Containments][29][Applets][41]
@@ -160,7 +150,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][41][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/steam (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/steam (1).desktop
 url=file:///usr/share/applications/steam.desktop
 
 [Containments][29][Applets][42]
@@ -168,7 +158,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][42][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/com.github.xournalpp.xournalpp (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/com.github.xournalpp.xournalpp.desktop
 url=file:///usr/share/applications/com.github.xournalpp.xournalpp.desktop
 
 [Containments][29][Applets][43]
@@ -176,7 +166,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][43][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/org.kde.kdenlive (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/org.kde.kdenlive.desktop
 url=file:///usr/share/applications/org.kde.kdenlive.desktop
 
 [Containments][29][Applets][44]
@@ -184,7 +174,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][44][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/libreoffice-writer (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/libreoffice-writer.desktop
 url=file:///usr/share/applications/libreoffice-writer.desktop
 
 [Containments][29][Applets][45]
@@ -192,7 +182,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][45][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/torbrowser (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/torbrowser.desktop
 url=file:///usr/share/applications/torbrowser.desktop
 
 [Containments][29][Applets][46]
@@ -200,7 +190,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][46][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/org.inkscape.Inkscape (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/org.inkscape.Inkscape.desktop
 url=file:///usr/share/applications/org.inkscape.Inkscape.desktop
 
 [Containments][29][Applets][47]
@@ -208,7 +198,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][47][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/Zoom (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/Zoom.desktop
 url=file:///usr/share/applications/Zoom.desktop
 
 [Containments][29][Applets][48]
@@ -216,7 +206,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][48][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/drawio (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/drawio.desktop
 url=file:///usr/share/applications/drawio.desktop
 
 [Containments][29][Applets][49]
@@ -224,7 +214,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][49][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/discord (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/discord.desktop
 url=file:///usr/share/applications/discord.desktop
 
 [Containments][29][Applets][50]
@@ -232,7 +222,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][50][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/protonvpn-app (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/protonvpn-app.desktop
 url=file:///usr/share/applications/protonvpn-app.desktop
 
 [Containments][29][Applets][51]
@@ -248,18 +238,35 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][52][Configuration]
-localPath=/home/ansible/.local/share/plasma_icons/audacity (1).desktop
+localPath=/home/oslander/.local/share/plasma_icons/audacity.desktop
 url=file:///usr/share/applications/audacity.desktop
 
 [Containments][29][Applets][55]
 immutability=1
 plugin=org.kde.plasma.kickerdash
 
+[Containments][29][Applets][55][Configuration]
+PreloadWeight=100
+
 [Containments][29][Applets][55][Configuration][General]
 favoritesPortedToKAstats=true
 
 [Containments][29][General]
 AppletOrder=55;38;33;50;36;45;39;34;49;47;35;40;42;44;48;37;46;52;43;32;41;51;31
+
+[Containments][56]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=0433438d-5f40-4a33-a004-a509b646938f
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][56][General]
+positions={"1920x1080":[]}
 
 [Containments][8]
 activityId=
@@ -323,12 +330,15 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.brightness
 
+[Containments][8][Applets][23][Configuration]
+PreloadWeight=26
+
 [Containments][8][Applets][24]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=55
+PreloadWeight=36
 
 [Containments][8][Applets][24][Configuration][General]
 showPercentage=true
@@ -350,7 +360,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][8][General]
-extraItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.brightness,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.manage-inputmethod,org.kde.kscreen,ibus-ui-gtk3
+extraItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.brightness,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.manage-inputmethod,org.kde.kscreen
 hiddenItems=org.kde.plasma.keyboardlayout,org.kde.plasma.vault,ibus-ui-gtk3
 knownItems=org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.brightness,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.manage-inputmethod,org.kde.kscreen
 scaleIconsToFit=true

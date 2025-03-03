@@ -38,14 +38,6 @@
     group: users
     mode: '750'
 
-- name: copy .local/share/aurorae directory
-  copy:
-    src: "../files/.local/share/aurorae"
-    dest: "/home/{{ user }}/.local/share"
-    owner: "{{ user }}"
-    group: users
-    mode: '750'
-
 - name: copy .local/share/color-schemes directory
   copy:
     src: "../files/.local/share/color-schemes"
@@ -172,6 +164,14 @@
 - name: copy .config/klaunchrc file
   copy:
     src: "../files/.config/klaunchrc"
+    dest: "/home/{{ user }}/.config"
+    owner: "{{ user }}"
+    group: users
+    mode: '640'
+
+- name: copy .config/dolphinrc file
+  copy:
+    src: "../files/.config/dolphinrc"
     dest: "/home/{{ user }}/.config"
     owner: "{{ user }}"
     group: users
