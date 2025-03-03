@@ -150,8 +150,8 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][29][Applets][41][Configuration]
-localPath=/home/oslander/.local/share/plasma_icons/steam (1).desktop
-url=file:///usr/share/applications/steam.desktop
+localPath=/home/oslander/.local/share/plasma_icons/steam.desktop
+url=file:///home/oslander/.local/share/applications/steam.desktop
 
 [Containments][29][Applets][42]
 immutability=1
