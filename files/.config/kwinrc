@@ -29,9 +29,5 @@ zoomEnabled=false
 [Windows]
 FocusPolicy=FocusFollowsMouse
 
-[org.kde.kdecoration2]
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Gently
-
 [Xwayland]
 Scale=1

@@ -55,7 +55,7 @@
     mode: '750'
 
 - name: remove default wallpaper
-  file:
+  file: 
     path: "/usr/share/wallpapers/emerald/contents"
     state: absent
 
