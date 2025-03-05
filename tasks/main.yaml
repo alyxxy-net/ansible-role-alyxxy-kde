@@ -137,10 +137,10 @@
     group: users
     mode: '640'
 
-- name: copy .config/plasma-org.kde.plasma.desktop-appletsrc file
-  copy:
-    src: "../files/.config/plasma-org.kde.plasma.desktop-appletsrc"
-    dest: "/home/{{ user }}/.config"
+- name: copy plasma-org.kde.plasma.desktop-appletsrc.j2 template
+  template:
+    src: "../templates/plasma-org.kde.plasma.desktop-appletsrc.j2"
+    dest: "/home/{{ user }}/.config/plasma-org.kde.plasma.desktop-appletsrc"
     owner: "{{ user }}"
     group: users
     mode: '640'
