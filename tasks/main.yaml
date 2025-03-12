@@ -211,4 +211,39 @@
         regexp: 'DefaultProfile=Profile 1.profile'
         line: 'DefaultProfile=Profile 1.profile'
 
+- name: "touchscreen configuration: enable sddm lockscreen keyboard & maliit keyboard"
+  when: touchscreen|bool == True
+  block:
+    
+    - name: install plasma touchscreen apps
+      apt:  
+        name: "{{ touchscreen_apps }}"
+        state: latest
+      
+    - lineinfile: 
+        state: present
+        create: yes
+        path: "/etc/sddm.conf"
+        regexp: '[General]'
+        line: '[General]' 
+        owner: "{{ user }}"
+        group: users
+        mode: '640'   
+  
+    - lineinfile: 
+        state: present
+        path: "/etc/sddm.conf"
+        regexp: 'InputMethod=qtvirtualkeyboard'
+        line: 'InputMethod=qtvirtualkeyboard'
+    
+    - lineinfile: 
+        state: present
+        path: "/home/{{ user }}/.config/kwinrc"
+        regexp: '[Wayland]'
+        line: '[Wayland]' 
 
+    - lineinfile: 
+        state: present
+        path: "/home/{{ user }}/.config/kwinrc"
+        regexp: 'InputMethod[$e]=/usr/share/applications/com.github.maliit.keyboard.desktop'
+        line: 'InputMethod[$e]=/usr/share/applications/com.github.maliit.keyboard.desktop'

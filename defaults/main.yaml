@@ -56,6 +56,10 @@ kde_apps:
       - libinput-dev
       - skanlite
 
+touchscreen_apps:
+      - maliit-keyboard
+      - qtvirtualkeyboard-plugin
+
 zfs_user_datasets:
       - "home/{{ user }}/.config"
       - "home/{{ user }}/.local"
